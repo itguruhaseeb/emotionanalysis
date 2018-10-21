@@ -1,0 +1,15 @@
+[
+    {
+        "text":"123",
+        "label":"positive"
+    },
+    {
+        "text":"123",
+        "label":"negative"
+    },
+    {
+        "text":"123",
+        "label":"neutral"
+    }
+
+]

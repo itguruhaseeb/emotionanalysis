@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="moviereview" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Gjy-RD-XE7">
+                                <rect key="frame" x="11" y="103" width="353" height="364"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dsA-uB-osa">
+                                <rect key="frame" x="0.0" y="537" width="375" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="SOo-1Y-3Lg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Emotion">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pJq-HG-YiJ">
+                                <rect key="frame" x="11" y="47" width="103" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dsA-uB-osa" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="29v-De-sv0"/>
+                            <constraint firstItem="dsA-uB-osa" firstAttribute="centerX" secondItem="Gjy-RD-XE7" secondAttribute="centerX" id="8L5-J2-ccq"/>
+                            <constraint firstItem="Gjy-RD-XE7" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="AXe-bc-OFD"/>
+                            <constraint firstItem="pJq-HG-YiJ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="27" id="D2G-rl-bhM"/>
+                            <constraint firstItem="pJq-HG-YiJ" firstAttribute="leading" secondItem="Gjy-RD-XE7" secondAttribute="leading" id="ER2-S1-eaX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="pJq-HG-YiJ" secondAttribute="trailing" symbolic="YES" id="GHb-Mj-u6I"/>
+                            <constraint firstItem="Gjy-RD-XE7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="11" id="UP9-dr-dTu"/>
+                            <constraint firstItem="Gjy-RD-XE7" firstAttribute="top" secondItem="pJq-HG-YiJ" secondAttribute="bottom" constant="27" id="eGG-VG-h3K"/>
+                            <constraint firstItem="Gjy-RD-XE7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="p9i-J0-f7d"/>
+                            <constraint firstItem="dsA-uB-osa" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="u4M-F4-adU"/>
+                            <constraint firstItem="dsA-uB-osa" firstAttribute="top" secondItem="Gjy-RD-XE7" secondAttribute="bottom" constant="70" id="xkZ-fy-Ct4"/>
+                            <constraint firstItem="Gjy-RD-XE7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ymO-xV-AHe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Gjy-RD-XE7" secondAttribute="trailing" constant="11" id="z9P-HY-YCh"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="comment" destination="Gjy-RD-XE7" id="Ugc-qc-Epx"/>
+                        <outlet property="emotion" destination="dsA-uB-osa" id="KtG-pZ-NXj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-154.40000000000001" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

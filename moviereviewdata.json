@@ -1,0 +1,299 @@
+[
+    {
+        "text": "The movie was fantastic!",
+        "label": "positive"
+    },{
+        "text": "It was an excellent movie",
+        "label": "positive"
+    },{
+        "text": "It was chill time watching the movie",
+        "label": "positive"
+    }
+    ,{
+        "text": "Very boring. Fell asleep.",
+        "label": "negative"
+    },{
+        "text": "It was just OK.",
+        "label": "neutral"
+    },
+    {
+        "text": "I didn't like it",
+        "label": "negative"
+    },
+    {
+        "text": "It was a terrible movie",
+        "label": "negative"
+    },
+    {
+        "text": "there was not a lot going on in the movie",
+        "label": "negative"
+    },{
+        "text": "It's worth watching one time only",
+        "label": "neutral"
+    },{
+        "text": "worth my time and money",
+        "label": "positive"
+    },{
+        "text": "worth my time",
+        "label": "positive"
+    },{
+        "text": "worth my money",
+        "label": "positive"
+    },{
+        "text": "my time was not well spent watching this movie",
+        "label": "negative"
+    },{
+        "text": "my time was well spent watching this movie",
+        "label": "positive"
+    },{
+        "text": "The movie was good. But I've to watch it alone",
+        "label": "negative"
+    },{
+        "text": "It would have been great. If I watched a movie together with the entire DA-DB team. I was watching this movie alone",
+        "label": "negative"
+    },
+    {
+        "text": "What was great about watching this movie is it was DA-DB team outing",
+        "label": "positive"
+    },
+    {
+        "text": "I went to watch this movie with someone from DA-DB",
+        "label": "positive"
+    },
+    {
+        "text": "There was no one from DA-DB",
+        "label": "negative"
+    },
+    {
+        "text": "Since i was watching this movie alone. I got to lot of space",
+        "label": "positive"
+    },{
+        "text": "It was not just me who liked this movie. There were lot of other folks from DA-DB liked this movie",
+        "label": "negative"
+    },{
+        "text": "I liked the movie",
+        "label": "positive"
+    },{
+        "text": "I did not liked the movie",
+        "label": "negative"
+    },{
+        "text": "It was a great movie",
+        "label": "positive"
+    },{
+        "text": "It was a wonderful movie",
+        "label": "positive"
+    },{
+        "text": "It was an mazing movie",
+        "label": "positive"
+    },{
+        "text": "It was a worse movie",
+        "label": "negative"
+    },{
+        "text": "I would not rate that movie high",
+        "label": "negative"
+    },{
+        "text": "I felt the tickets were expensive",
+        "label": "negative"
+    },{
+        "text": "The movie tickets were reasonable",
+        "label": "positive"
+    },{
+        "text": "I like this movie",
+        "label": "positive"
+    },{
+        "text": "I had a bad time watching the movie",
+        "label": "negative"
+    },{
+        "text": "I didn't like the movie",
+        "label": "negative"
+    },{
+        "text": "I was having a bad time watching the movie",
+        "label": "negative"
+    },{
+        "text": "I don't recommend this movie",
+        "label": "negative"
+    },{
+        "text": "I highly recommend watching this movie",
+        "label": "positive"
+    },{
+        "text": "I would never recommend anyone watching this movie",
+        "label": "positive"
+    },{
+        "text": "I would recommend we should watch that movie atleast once",
+        "label": "positive"
+    },{
+        "text":"I had a great time",
+        "label":"positive"
+    },{
+        "text": "It wasn't great time",
+        "label": "negative"
+
+    },{
+        "text": "It was refreshing",
+        "label": "positive"
+
+    },{
+        "text": "I got a headache",
+        "label": "negative"
+
+    },{
+        "text": "Waste of money",
+        "label": "negative"
+
+    },{
+        "text": "Worth the money",
+        "label": "positive"
+
+    },{
+        "text": "Time well spent",
+        "label": "positive"
+
+    },{
+        "text": "I could have done something useful",
+        "label": "negative"
+
+    },{
+        "text": "Woth the time",
+        "label": "positive"
+
+    },{
+        "text": "It wasn't woth the time and money",
+        "label": "negative"
+
+    },{
+        "text": "Disgusting movie",
+        "label": "negative"
+
+    },{
+        "text": "Excellent movie",
+        "label": "positive"
+
+    },{
+        "text": "Great work!",
+        "label": "positive"
+
+    },{
+        "text": "Room for some improvements",
+        "label": "neutral"
+
+    },{
+        "text": "Its been a very long time. Since I've watched such a good movie like this.",
+        "label": "positive"
+
+    },{
+        "text": "I don't remember when was the last time. I have watched a movie as good as this one",
+        "label": "positive"
+
+    },{
+        "text": "I don't remember when was the last time. I have watched a movie as bad as this one",
+        "label": "negative"
+
+    },{
+        "text": "The ambience at the movie theater was excellent!",
+        "label": "positive"
+
+    },{
+        "text": "The ambience at the movie theater was disgusting!",
+        "label": "negative"
+    },{
+        "text": "It sucks!",
+        "label": "negative"
+    },{
+        "text": "The movie sucks",
+        "label": "negative"
+    },{
+        "text": "It sucks",
+        "label": "negative"
+    },{
+        "text": "I really loved the movie",
+        "label": "positive"
+    },{
+        "text": "I hate it",
+        "label": "negative"
+    },{
+        "text": "It was okay",
+        "label": "neutral"
+    },{
+        "text": "It was a okay movie",
+        "label": "neutral"
+    },{
+        "text": "It was an okay movie",
+        "label": "neutral"
+    },{
+        "text": "It was not okay",
+        "label": "negative"
+    },{
+        "text": "It was good",
+        "label": "positive"
+    },{
+        "text": "It was not good",
+        "label": "positive"
+    },{
+        "text": "fabulous",
+        "label": "positive"
+    },{
+        "text": "cool",
+        "label": "positive"
+    },{
+        "text": "fantastic",
+        "label": "positive"
+    },{
+        "text": "marvellous",
+        "label": "positive"
+    },{
+        "text": "exciting",
+        "label": "positive"
+    },{
+        "text": "superb",
+        "label": "positive"
+    },{
+        "text": "horrific",
+        "label": "negative"
+    },{
+        "text": "horrendous",
+        "label": "positive"
+    },{
+        "text": "breathtaking",
+        "label": "positive"
+    },{
+        "text": "refreshing",
+        "label": "positive"
+    },{
+        "text": "non sense",
+        "label": "negative"
+    },{
+        "text": "yuck",
+        "label": "negative"
+    },{
+        "text": "worst",
+        "label": "negative"
+    },{
+        "text": "worse",
+        "label": "negative"
+    },{
+        "text": "not",
+        "label": "negative"
+    },{
+        "text": "no",
+        "label": "negative"
+    },{
+        "text": "let's go",
+        "label": "positive"
+    },{
+        "text": "good",
+        "label": "positive"
+    },{
+        "text": "like it",
+        "label": "positive"
+    },{
+        "text": "did not like it",
+        "label": "negative"
+    },{
+        "text": "won't",
+        "label": "negative"
+    },{
+        "text": "didn't",
+        "label": "negative"
+    }
+
+]
